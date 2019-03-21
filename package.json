@@ -1,0 +1,14 @@
+{
+  "name": "Web-Scrapper For Hacker News",
+  "description": "Instantly spin up a graphql-scraper server (with 1-click deploy!)",
+  "main": "index.js",
+  "author": "Mohit-Arya <mohit.arya1211@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "graphql": "^0.12.3",
+    "graphql-scraper": "^1.0.0",
+    "graphql-yoga": "^1.2.0"
+  }
+}
