@@ -3,7 +3,7 @@ This is a Sample GraphQL Query to get data
   page(url: "http://news.ycombinator.com") {
   items: queryAll(selector: "tr.athing") {
   rank: text(selector: "td span.rank")
-     title: text(selector: "td.title a")
+    title: text(selector: "td.title a")
       sitebit: text(selector: "span.comhead a")
       url: attr(selector: "td.title a", name: "href")
       attrs: next {
